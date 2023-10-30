@@ -1,0 +1,375 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dark-header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #66d9ff; /* Hover color */
+}
+
+.cta-buttons {
+    display: flex;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #66d9ff; /* CTA button background color */
+    color: #333; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4ba4ff; /* Hover background color */
+}
+/* styles.css */
+
+/* Header styles as shown in the previous answer */
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat; /* Hero background image */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button style is the same as in the previous answer */
+/* styles.css */
+
+/* Header and hero styles as shown in the previous answers */
+
+.features {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.feature i {
+    font-size: 36px;
+    color: #66d9ff; /* Icon color */
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Button style is the same as in the previous answers */
+
+/* styles.css */
+
+/* Header, hero, and features styles as shown in the previous answers */
+
+.pricing {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-plan {
+    max-width: 300px;
+    padding: 20px;
+    border: 2px solid #66d9ff; /* Border color */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pricing-plan h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pricing-plan p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Button style is the same as in the previous answers */
+
+/* styles.css */
+
+/* Header, hero, features, and pricing styles as shown in the previous answers */
+
+.about {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Button style is the same as in the previous answers */
+
+/* styles.css */
+
+/* Header, hero, features, pricing, and about styles as shown in the previous answers */
+
+.testimonials {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.testimonials-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin: 20px 0;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Button style is the same as in the previous answers *//* styles.css */
+
+/* Header, hero, features, pricing, about, and testimonials styles as shown in the previous answers */
+
+.contact {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #333; /* Dark input background color */
+    border: none;
+    color: #fff; /* Input text color */
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Button style is the same as in the previous answers */
+/* styles.css */
+
+/* Header, hero, features, pricing, about, testimonials, and contact styles as shown in the previous answers */
+
+.dark-footer {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-logo p {
+    font-size: 16px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #66d9ff; /* Hover color */
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #66d9ff; /* Hover color */
+}
+
+/* Button style is the same as in the previous answers */
+
+
+
+
+
